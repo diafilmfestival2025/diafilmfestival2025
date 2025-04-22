@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIA Filmfest | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+  ::-webkit-scrollbar{
+    background: #111;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #111;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: black;
+    height: 50px;
+    transition: 0.5s;
+  }
+
+  body{
+      margin: 0 !important;
+      padding: 0 !important;
+      background-color: #0e0d0d !important;
+      cursor: crosshair!important;
+      font-family: 'Rethink sans', sans-serif !important;
+      background-size: 150 150;
+  }
+
+  .navbar {
+    color: white !important;
+  }
+  .poppins{
+    font-family: 'Poppins', sans-serif;
+  }
+  .curly{
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+  }
+  .content{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .content h1{
+    text-align: center;
+    font-size:55px;
+    color: white;
+  }
+
+  .back-video{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index: -1;
+  }
+  .btn-custom{
+    font-family: 'Poppins', sans-serif;
+    background-color:transparent;
+    color:white;
+    outline: 1px solid white;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  .btn-custom:hover{
+    transition: 0.3s;
+    color: black;
+    background-color: white;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .content{
+      margin-top: 20%;
+    }
+
+    .cater-class{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cater-class .card{
+        margin-bottom: 5%;
+    }
+
+}
+
+    .main_text{
+        margin-top: 5%;
+        font-size: 65px;
+        font-family: 'Poppins', sans-serif;
+        color: white !important;
+    }
+
+    .navtext{
+        color: white !important;
+        font-family: 'Rethink Sans', sans-serif !important;
+        text-decoration: bold;
+    }
+
+  .navtext:hover{
+    color: #000000 !important;
+  }
+
+    .sgtx{
+        color:white;
+    }
+
+    .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    }
+
+</style>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="navbar-brand">
+            <a href="index.html">
+              <img src="logo.png" alt="" width="50px">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active navtext" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link navtext" href="about.html">About</a>
+              <a class="nav-link navtext" href="guidelines.html">Guidelines</a>
+              <a class="nav-link navtext" href="how_to_submit.html">How to upload</a>
+              <a class="nav-link navtext" href="gallery.html">Gallery</a>
+            </div>
+          </div>
+        </div>
+
+      </nav>
+<br>
+<br>
+
+<h1 class="m-5 main_text">Gallery (2023)</h1>
+
+    <div class="row"> 
+        <div class="column">
+            <img src="2023filmfestphotos/IMG_5304.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_5306.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_5320.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_6789.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_6795.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_6801.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_6842.JPG" style="width:100%">
+            <!--  -->
+            <img src="2023filmfestphotos/IMG_6861.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_6866.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_6912.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_6940.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_6944.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_6951.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_6954.JPG" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="/2023filmfestphotos/IMG_4746.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_4750.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_4753.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_4757.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_4763.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_4776.JPG" style="width:100%">
+            <!--  -->
+            <img src="2023filmfestphotos/IMG_6958.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_6959.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_6968.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_7217.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_7218.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_7220.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_7219.JPG" style="width:100%">
+        </div>  
+        <div class="column">
+            <img src="/2023filmfestphotos/IMG_4842.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_4859.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_4871.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_5146.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_5150.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_5202.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_5235.JPG" style="width:100%">
+            <!--  -->
+            <img src="2023filmfestphotos/IMG_7220.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_7226.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_7228.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_7229.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_7251.JPG" style="width:100%">
+            <img src="2023filmfestphotos/IMG_7263.JPG" style="width:100%">
+            <img src="2023filmfestphotos/" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="/2023filmfestphotos/IMG_5265.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_5293.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_5297.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_5303.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_5300.JPG" style="width:100%">
+            <img src="/2023filmfestphotos/IMG_5303.JPG" style="width:100%">
+            <!--  -->
+          <img src="2023filmfestphotos/IMG_5304.JPG" style="width:100%">
+          <img src="2023filmfestphotos/IMG_5306.JPG" style="width:100%">
+          <img src="2023filmfestphotos/IMG_5320.JPG" style="width:100%">
+          <img src="2023filmfestphotos/IMG_6789.JPG" style="width:100%">
+          <img src="2023filmfestphotos/IMG_6795.JPG" style="width:100%">
+          <img src="2023filmfestphotos/IMG_6801.JPG" style="width:100%">
+          <img src="2023filmfestphotos/IMG_6842.JPG" style="width:100%">
+        </div>
+    </div>
+
+    <script>
+
+
+    </script>
+
+
+</body>
+</html>
